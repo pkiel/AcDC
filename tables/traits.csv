@@ -1,0 +1,82 @@
+trait_id,trait_name,trait_class
+2,"lipid density",organismal
+3,"bulk density",organismal
+4,mortality,organismal
+5,PAR,contextual
+6,tag,contextual
+7,month,contextual
+8,months,contextual
+9,condition,contextual
+10,TLE,organismal
+11,branches,organismal
+12,"apical branches",organismal
+13,temperature,contextual
+14,depth,contextual
+15,date,contextual
+16,SA,contextual
+17,"colony volume",organismal
+18,"color score",organismal
+19,"maximum photosynthetic yield",organismal
+20,mass,organismal
+21,"bleaching R-score",organismal
+22,"R-intensity stdev",organismal
+23,"stress hardened",contextual
+24,notes,contextual
+25,beaching,organismal
+26,length,organismal
+27,days,contextual
+28,"lesion healing",organismal
+29,"lesion area",organismal
+30,calcification,organismal
+31,"annual linear growth",organismal
+32,"healing rate",organismal
+33,tank,contextual
+34,pH,contextual
+36,chamber,contextual
+37,"dark calcification",organismal
+38,"light calcification",organismal
+39,respiration,organismal
+40,photosynthesis,organismal
+42,"interstitial space volume",organismal
+43,P:R,organismal
+44,"annual linear growth per branch",organismal
+45,"annual interstitial space growth",organismal
+46,"annual colony volumetric growth",organismal
+47,"bleaching photochemical efficiency",organismal
+48,"SA normalized daily calcification",organismal
+49,"6-month linear growth",organismal
+50,"mass normalized daily calcification",organismal
+51,"daily calcification",organismal
+52,"bleaching color score",organismal
+53,"bleaching photosynthetic yield",organismal
+54,"6-month interstitial space growth",organismal
+55,"6-month colony volumetric growth",organismal
+59,"symbiont density",organismal
+60,"chlorophyll-a density",organismal
+61,"symbiont chlorophyll-a density",organismal
+62,"tissue dry weight",organismal
+63,ED50,organismal
+64,"specific growth rate",organismal
+65,"maximum growth comparability",organismal
+66,"colony volumetric SGR",organismal
+67,"interstitial space SGR",organismal
+68,"colony height",organismal
+69,"colony width",organismal
+70,"size class",organismal
+71,"disease control",organismal
+72,"disease exposed",organismal
+73,"disease death",organismal
+74,"control death",organismal
+75,"low credible interval",organismal
+76,"median relative risk",organismal
+77,"high credible interval",organismal
+78,"colony length",organismal
+79,width,organismal
+80,volume,organismal
+82,"polyp density",organismal
+83,"oocyte density",organismal
+84,"oocyte length",organismal
+85,"oocyte width",organismal
+86,"oocyte volume",organismal
+87,"bundle sperm density",organismal
+88,"bundle egg density",organismal

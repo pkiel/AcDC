@@ -1,0 +1,86 @@
+standard_id,name,unit
+8,"symbiont cell cholorophyll a density","pg cell^-1"
+9,Area,m^2
+10,Area,km^2
+11,Area,cm^2
+12,"Calcification rate","µmol cm^-2 h^-1"
+13,Category,cat
+14,count,units
+15,"Date (YYYY-mm-dd)",date
+16,Days,days
+17,"Degrees Celsius",°C
+18,Density,"g mL^-1"
+19,"Density- parts-per-billion",ppb
+20,Density,"mg l^-1"
+21,Density,"µg cm^-2"
+22,Density,"mg m^-2"
+23,Density,"count cm^-2"
+24,Density,"mg cm^-2"
+25,Density,"g cm^-3"
+26,Dimensionless,dimensionless
+27,Duration,hours
+28,Duration,months
+29,Duration,days
+30,Duration,"hours d^-1"
+31,Duration,years
+32,"Extension rate (diameter)","mm yr^-1"
+33,"Extension rate (linear)","mm 8 months^-1"
+34,"Extension rate (linear)","mm d^-1"
+35,"Extension rate (linear)","mm yr^-1"
+36,"Extension rate (linear)","mm month^-1"
+37,"Extension rate (linear)","mm 6 months^-1"
+38,"Extension rate (linear)","mm 7 months^-1"
+39,"Extension rate (linear)","mm 4 months^-1"
+40,"Extension rate (linear)","mm 3 months^-1"
+41,"Extension rate (radial)","mm 6 months^-1"
+43,"Flow rate","ml min^-1"
+44,Frequency,"units yr^-1"
+45,Geocoordinate,deg
+46,Length,µm
+47,Length,km
+48,Length,cm
+49,Length,mm
+50,Length,m
+51,"Light density","µmol quanta m^-2 s^-1"
+53,"Million years ago",mya
+54,Percent,%
+55,"Percent per year","% yr^-1"
+56,permil,0/00
+58,Precipitation,"mm mo^-1"
+59,Rate,"g cm ^-2 yr^-1"
+60,Rate,"g month^-1"
+61,"Calcification Rate Normalized to SA","mg day^-1 cm^-2"
+62,"O2 Rate Normalized to SA","µmol O2 cm^-2 h^-1"
+63,Speed,"mm s^-1"
+64,"Time (hh:mm)",time
+65,Volume,mm^3
+66,Year,year
+67,"Years ago",kya
+68,Density,"g cm^-2"
+69,name,name
+70,"Time (month)",month
+71,Length,ft
+72,"maximum quantum yield of PSII ",Fv/Fm
+73,mass,g
+74,Volume,cm^3
+75,Text,text
+77,"Calcificaton Rate","mg day^-1"
+78,"Lesion healing rate","% healed day^-1 cm^-2"
+79,"annual proportionate growth","annual proportionate growth"
+80,"bleaching metric","proportionate decrese ^1 deg heating days^-1"
+81,"Oxygen rate","µmol h^-1"
+82,"6 month productivtity","proportionate growth"
+83,"Normalized Calcification Rate","mg day^-1 g^-1"
+87,"normalized r value","normalized change R-value day^-1"
+88,"normalized color score","normalized change color score day^-1"
+89,"normalized fv/fm","normalized change maximum photochemical efficiency day^-1"
+90,"specific growth rate","% change day^-1"
+91,"exponential bleaching","% increase heating day^-1"
+92,"exponential bleaching","% decrease heating day^-1"
+93,"bleaching exponential change","% change heating day^-1"
+94,count,count
+95,Volume,µm^3
+96,"Density per polyp","count polyp^-1"
+97,"Density per egg-sperm bundle","count bundle^-1"
+98,"10^6 unit density egg-sperm bundle","10^6 count bundle^-1"
+99,"10^6 count standardized to surface area","10^6 count cm^-2"

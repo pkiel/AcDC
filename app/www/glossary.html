@@ -1,0 +1,111 @@
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"> </script>
+<p>AcDC's mission is to assimilate genet-specific datasets of <em>Acropora cervicornis</em> to elucidate the genotypic influence on the coral's phenotype. <em>A. cervicornis</em>, commonly known as the staghorn coral in the Caribbean, is the most ubiquitous species in coral restoration projects due to its population declines and its importance as a major contributor to reef-frameworks throughout the region. Restoration programs propagate hundreds of genets, and intraspecific variation in key phenotypes valuable to the restoration of the species have been previously identified. Thus, AcDC was created by <a href="https://www.coral.noaa.gov/" target="_blank">NOAA's Atlantic Oceanographic and Meteorological Laboratory Coral Program</a> to align the community's resources, share the findings freely, and build a decision support tool for the restoration community.</p>
+
+<h3>Quick Reference Tools</h3>
+<p>At the heart of AcDC are the three decision support tools: Trait Analysis, Genet Report, and Genet Comparison. These tools allow quick access to the AcDC database and place the data within the context of the entire population of nursery-grown genets. </p>
+<p>In the Trait Analysis tool, you can analyze growth rates, bleaching susceptibility, or any one of the available phenotypes. You can then apply filters and view summary statistics for the sampled population and a further breakdown by genet. Each family of phenotypes has several corresponding quantitative measurements that seek to describe the phenotype of interest. </p>
+<p>In the Genet Report tool, you can view all available information about a selected genotype including a report card of the complete suite of phenotypic data available for the selected genet. Additionally, there are links to that genotype's respective pages on Penn State's STAGdb and the Coral Sample Registry Database (CSR).</p>
+<p>Finally, in the Genet Comparison tool, you can select multiple genotypes and compare the available quantitative measurements. You can select genets by given nursery name, a map of source locations, or one of two database identifiers.</p>
+<p>These tools are offered as a scientific product and NOAA makes no claim as to the validity of the data shared. Data has undergone an in-house quality control process, however, it is recommended you download the raw data if available to analyze in further detail using the Raw Data Tab.</p>
+
+<h4>Interpreting the Mean Plot</h4>
+<img src="indicatorExample.jpg" alt="Example of a modified boxplot and stoplight indicators used to interpret the descriptive statistics available in AcDC" style="display: block; margin-left: auto; margin-right: auto; width: 60%;">
+<p>AcDC provides two visual indicators of genet performance to facilitate the relative comparison of genet performance and to assess potential phenotype tradeoffs.</p>
+<p>The first indicator is a modified boxplot that can be viewed by clicking the mean value of a trait on any of the three Quick Reference Tools. When on the Trait Analysis Tool, the modified boxplot is responsive to all applied data filters and places the genet in the context of the filtered data. On the Genet Report and Genet Comparison tools, the boxplot is reflective of all available data. The first number seen above the boxplot indicates the genet's average value, which is further illustrated as a point with the attached whiskers illustrating one standard deviation about the mean. The numbers below the boxplot indicate the population's minimum, mean, and maximum values. The two lines surrounding the mean indicate one standard deviation about the population's mean. The genet's mean point and standard deviation line color indicates
+ the genet's relative performance compared to the population average, with red indicating the genet average is greater than one SD below the population average, yellow indicating the genet average is within one SD of the population average, and green indicating the genet average is greater than one SD above the population average. </p>
+<p>This plot is accompanied by the inline Global Rank indicator, which divides genet performance into even terciles based on total, unfiltered, ambient data; red indicates performance in the first tercile, yellow indicates performance in the middle tercile, and green indicates performance in the third tercile</p>
+<p>The plots and data presented are not absolutes and are only reflective of the data currently held within the database. Relative performance rankings are subject to change with the inclusion of new phenotypic data and new genets. Therefore, these tools predominantly serve as a means to understand intraspecific variability, phenotypic tradeoffs, and help plan a community-based approach to coral restoration.</p>
+ 
+ <h3>Methodology</h3>
+ <h4>QA/QC</h4>
+<p>The data held within the database is a collection of published and unpublished datasets on genet-specific <em>Acropora cervicornis</em>. Every dataset has undergone a quality control process by both the data contributor and the AcDC team to ensure that phenotypic data corresponds to its matching genet within the database and proper data collection protocols were followed.</p>
+
+<p>Colony growth and calcification data were filtered to ensure data monotonically increase. Growth data were further limited to the first year of growth. This process rejects any data in which fragmentation of branches occurs, which would otherwise obfuscate the true growth rate of the fragment and diminish the genets average growth rate.</p>
+ 
+ <h4>Summary Statistics</h4>
+ <p>Descriptive statistics for each trait are provided throughout the Quick Reference Tools including the arithmetic mean, one standard deviation (sd), the total number of measurements (n), the minimum measurement (min), the maximum measurement (max), and the total number of datasets reflected in these calculations. </p>
+ 
+ <h3>Traits</h3>
+ <p>The following is a list of the distinct traits you can analyze within the site. Each trait has multiple response variables that seek to describe the selected trait. Below are explanations and equations each measurement. </p>
+ 
+ <h4>Biomechanical</h4>
+ <ul>
+  <li><strong>Bulk Density</strong> - The total dry weight of coral fragment divided by its volume</li>
+	<li><strong>Polyp Density</strong> - The count of polyps of a coral standardized to its surface area</li>
+</ul>
+
+  <h4>Bleaching</h4>
+ <ul>
+	<li><strong>Color Score</strong> - The percent change of the CoralWatch Bleaching card per day of heat stress</li>
+	<li><strong>Photochemical Efficiency</strong> - The percent change of the photochemical efficiency (Fv/FM) per day of heat stress</li>
+	<li><strong>R-Score</strong> - The percent change of the R-channel's intensity per day of heat stress</li>
+	<li><strong>ED50</strong> - Value on dose-response curve representing a 50% reduction in Fv/FM using the rapid CBASS assay</li>
+	<li><strong>Chlorophyll-a Density</strong> - Density of total chlorophyll-a content standardized to surface area of coral</li>
+	<li><strong>Symbiont Chlorophyll-a Density</strong> Total chlorophyll-a content standardized to total count of symbionts</li>
+	<li><strong>Symbiont Density</strong>- Density of total symbiont count standardized to coral surface area</li>
+ </ul>
+ 
+  <h4>Disease</h4>
+  To further understand the Bayesian approach to Relative Risk assessments, we direct you to the <a href="https://doi.org/10.7554/eLife.35066.001" target="_blank">Muller et al. (2018) paper</a> and the references within. In summary, the greater the credible interval, the greater the susceptibility to disease. 
+ <ul>
+   <li><strong>Median Relative Risk</strong> - Output of the Bayesian relative risk on the log scale, corresponding to the median value</li>
+   <li><strong>High Credible Interval</strong> - Output of the Bayesian relative risk on the log scale, corresponding to the upper bounds of the 95% credible interval</li>
+   <li><strong>Low Credible Interval</strong> - Output of the Bayesian relative risk on the log scale, corresponding to the lower bounds of the 95% credible interval</li>
+ </ul>
+ 
+<h4>Growth Rates</h4>
+ <ul>
+  <li><strong>Maximum Growth Comparability</strong> - trait to increase the comparability of all growth measurements using multiple regressions to approximate a standard trait. The calculated regressions are shown below.</li>
+  <li><strong>Colony Volumetric Growth</strong> - measurement of total colony volume over time</li>
+  <li><strong>Interstitial Space Growth</strong> - measurement of the total space between branches over time</li>
+  <li><strong>Linear Growth</strong> - the change in total linear extension over time using linear growth equations, represented as growth proportionate to initial size.</li>
+  <li><strong>Specific Growth Rate (SGR)</strong> - change in total linear extension over time using exponential growth equations, represented as percent change per day.</li>
+  <li><strong>Daily calcification</strong> - change in mass of the coral fragment</li>
+  <li><strong>Dark calcification</strong> - alkalinity anomaly change in dark acclimated incubations</li>
+  <li><strong>Light calcification</strong> - alkalinity anomaly change in light acclimated incubations</li>
+  <li><strong>Mass normalized daily calcification</strong> - change in mass of the coral fragment normalized to initial mass</li>
+  <li><strong>Surface area (SA) normalized daily calcification</strong> - change in mass of the coral fragment normalized to initial surface area</li>
+ </ul>
+ 
+ <h4>Host Physiology</h4>
+ <ul>
+	<li><strong>P:R</strong> - The ratio of photosynthesis to respiration from incubations</li>
+	<li><strong>Photosynthesis</strong> - change in dissolved oxygen concentration of light acclimated incubations corrected from dark acclimated incubations</li>
+	<li><strong>Respiration</strong> - change in dissolved oxygen concentration of dark acclimated incubations </li>
+	<li><strong>Lipid Density</strong>- Density of total lipids standardized to coral surface area</li>
+	<li><strong>Tissue Dry Weight</strong> - Ash free dry tissue weight of homogenized tissue slury</li>
+ </ul>
+ 
+  <h4>Reproduction</h4>
+ <ul>
+	<li><strong>Oocyte Density</strong> - The count of oocytes in a dissected polyp</li>
+	<li><strong>Oocyte Volume</strong> - The volume of an oocyte assuming the shape of a prolate ellipsoid</li>
+	<li><strong>Bundle Sperm Density</strong> - The count of sperm within a single egg-and-sperm bundle</li>
+	<li><strong>Bundle Egg Density</strong> - The count of eggs within a single egg-and-sperm bundle</li>
+ </ul>
+
+  <h4>Wound Healing</h4>
+ <ul>
+	<li><strong>Wound healing</strong> - Rate at which the coral fragment recovers from lesions</li>
+ </ul>
+
+<h4>Equations</h4>
+<p>The following equations were used to calculate the traits from raw data for the traits described above.</p>
+<span><strong>Bleaching Photochemical Efficiency:</strong> \( 100 \times (\cfrac{Fv/Fm_f}{Fv/Fm_i})^{1/ Heating Days} -1  \)</span> <br />
+<span><strong>Bleaching R-Intensity Score:</strong>\( 100 \times (\cfrac{R-Intens.Value_f}{R-Intens.Value_i})^{1/ Heating Days} -1  \)</span> <br />
+<span><strong>Bleaching Color Score:</strong>\( 100 \times (\cfrac{Score_f}{Score_i})^{1/ Heating Days} -1  \)</span> <br />
+<span><strong>Normalized Wound Healing Rate:</strong> \( \cfrac {\%healed}{days} / Lesion Area \)</span> <br />
+<span><strong>Annual Productivity:</strong> \( {\cfrac {\Delta TLE}{TLE_i} / days } * 365 \)</span> <br />
+<span><strong>Specific Growth Rate:</strong> \( 100 \times (\cfrac{TLE_f}{TLE_i})^{1/days} -1  \)</span> <br />
+<span><strong>Initial Mass Normalized Daily Calcification:</strong> \( \cfrac {\Delta mass}{mass_i} / days \)</span> <br />
+<span><strong>Surface area Normalized Daily Calcification:</strong> \( {\cfrac {\Delta mass}{SA_i} / days} \)</span>
+
+<h4>Performance Composite Indicators</h4>
+<p>AcDC aligns metrics within a trait family to assess relative genet performance across multiple traits and methodologies using standardized composite indices. Composite scores are calculated with data from the standardized traits. Currently, composite indices exist for the growth rates and bleaching resistance trait families. These indices more effectively communicate genet performance and predominantly serve as benchmarking tools for the coral restoration community and should not be mistaken as absolute scores.</p>
+<p>For the composite growth index, the 6-month and 12-month linear growth and volumetric growth, mass normalized daily calcification, and total alkalinity anomaly incubation metrics are used to calculate the composite score. First, outliers are identified and removed using modified z-scores where the median value for the trait is subtracted from each value, and then the difference is scaled by the median of the absolute deviations about the median multiplied by the constant 1.486 to approximate a standard deviation under a normal distribution. We use the commonly accepted threshold of 3.5 to identify outliers, which are then removed and not included in the composite score calculations. Then, the remaining measurements are converted into standard z-scores within their respective metrics, and an average linear extension and calcification score is calculated. Linear extension traits include linear growth and volumetric growth metrics, and calcification traits include mass normalized daily calcification and the total alkalinity anomaly incubation metrics. The average of these standard scores is taken as the final composite growth index for the genet. </p>
+<p>For the composite bleaching resistance index, a similar approach is employed using the CBASS ED50, bleaching R-score, bleaching color score, and bleaching photochemical efficiency metrics. Outliers are identified and removed when modified z-scores are greater than 3.5, and the remaining values are converted to standard z-scores. The average of these standard scores is taken as the final composite bleaching resistance index for the genet.</p>
+
+<h3>About the Project</h3>
+<p>The <em>Acropora cervicornis</em> Data Coordination Hub (AcDC) is funded by the <a href="https://coralreef.noaa.gov/" target="_blank">Coral Reef Conservation Program's</a> grant to fund rapid assays of coral genotype performance. As part of this work to obtain new data on the coral-phenotype relationship, existing datasets were aggregated to leverage the collective resources of the scientific and restoration community. AcDC is the resulting product which will receive rolling updates to the database with the collection of data from the rapid assays and data submissions from the community.</p>
+<p>If you have any questions about this project, need help with the use of the site, or have feedback, <a href="mailto:patrick.kiel@noaa.gov?subject=AcDC%20Comment" target="_blank">please contact us to share your thoughts and questions.</a></p>

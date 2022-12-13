@@ -1,0 +1,75 @@
+location_id,location_name,location_lat,location_long,depth,type
+1,RSMAS,25.732794,-80.162619,NULL,lab
+2,Cooper,25.508770,-80.120540,4,reef
+3,CVFD,25.322420,-80.182280,5,reef
+4,Grounding,25.389070,-80.165720,6,reef
+5,"Miami Beach",25.848300,-80.103800,4,reef
+6,"Struggle Bus",25.332820,-80.165050,10,reef
+7,"Steph's Reef",25.440610,-80.135960,4,reef
+8,"Jon's Reef",25.567130,-80.107970,5,reef
+9,"South Nursery",25.362570,-80.166420,6,bn
+10,"Rainbow Reef",24.619420,-82.920350,5,reef
+11,"Perfection Reef",24.663620,-82.912480,8,reef
+12,"DRTO nursery",24.619510,-82.897750,7,bn
+13,"Biota Box",24.619100,-82.922940,8,reef
+15,"FWC Nursery Block",24.666370,-81.024630,8,bn
+16,"Yellow Rocks",24.649320,-81.031170,9,reef
+17,"Nearshore Patch",24.699480,-80.966780,5,reef
+18,"Site A",24.563070,-81.401000,6,reef
+19,"Munson Reef",24.595370,-81.371930,7,reef
+20,"Looe Key Nursery",24.563600,-81.278600,8,ln
+21,1196,25.464780,-80.157330,4,reef
+22,"KB Nursery",25.676267,-80.098683,9,ln
+23,"PC Nursery",18.539195,-68.347447,NULL,ln
+24,Scar,25.365500,-80.171050,4,reef
+25,"North Inshore",25.465430,-80.149830,4,reef
+26,"Emerald Reef",25.674770,-80.097750,7,reef
+27,"North Midchannel",25.462840,-80.142540,7,reef
+28,"South Inshore",25.361120,-80.177890,4,reef
+29,"South Midchannel",25.357520,-80.169730,6,reef
+30,"Punta Russia Nursery",NULL,NULL,NULL,ln
+31,"Bowl Nursery",25.488800,-80.109100,NULL,ln
+32,"NSU Swiss Cheese",26.135188,-80.096315,7,bn
+33,"NSU Layer Cake",26.124600,-80.097233,7,bn
+34,"Green Cay (Blocks)",17.770467,-64.664100,NULL,bn
+35,"Green Cay (FUCA)",17.770467,-64.664100,NULL,ln
+36,"Tague Bay (Blocks)",17.762517,-64.609533,NULL,bn
+37,"Butler Bay (Blocks)",17.749300,-64.894717,NULL,bn
+38,"Perseverance Bay (Blocks)",18.348717,-64.989950,NULL,bn
+39,"Perseverance Bay (FUCA)",18.348717,-64.989950,NULL,bn
+40,"Lindquist (Blocks)",18.342267,-64.848450,NULL,bn
+41,"Lindquist (FUCA)",18.342267,-64.848450,NULL,ln
+42,"Cane Bay (Blocks)",17.774311,-64.811317,NULL,bn
+43,"Perseverance Bay (FUCA)",18.348717,-64.989950,NULL,ln
+45,"Diver's Paradise",25.658697,-80.096609,7,reef
+46,"Miami Beach - Unsworth",25.816455,-80.102533,8,reef
+47,"Long Key Nursery",24.747150,-80.784100,NULL,bn
+48,"Mote Tree Nursery",24.567250,-81.400100,6,ln
+49,"Mote Block Nursery",24.567250,-81.400100,8,bn
+50,"Bahia Honda",24.589080,-81.242030,NULL,reef
+51,"Big Pine",24.568670,-81.326550,NULL,reef
+52,"Looe Key",24.546670,-81.402140,NULL,reef
+53,"Maryland Shoals",24.510360,-81.569910,NULL,reef
+54,"Dave's Ledge",24.530510,-81.487340,NULL,reef
+55,"Eastern Sambo",24.493050,-81.659610,NULL,reef
+56,"Western Sambo",24.482680,-81.703340,NULL,reef
+57,"Marker 32",24.474080,-81.742600,NULL,reef
+58,"Eastern Dry Rocks",24.459480,-81.844120,NULL,reef
+59,"Mote Marine Laboratory",24.661500,-81.454500,NULL,lab
+60,"Auburn Lab",32.599000,-85.482000,NULL,lab
+61,"EPA Gulf Ecology",30.338000,-87.157000,NULL,lab
+62,"CRF Tavenier Nursery",24.982220,-80.436330,NULL,ln
+63,"U4 Patch",25.007700,-80.447067,4,reef
+64,"Snapper Ledge",24.982833,-80.419056,7,reef
+65,"U14 Patch",24.950806,-80.490361,4,reef
+66,"Little Conch",24.943056,-80.473389,4,reef
+67,"Site P",24.553200,-81.379400,4,reef
+68,"Site U",24.538380,-81.453520,5,reef
+69,"FWC Nursery",24.666370,-81.024630,8,ln
+70,"Reef Renewal Nursery",24.970000,-80.450000,NULL,ln
+71,"NSU Nursery",26.124533,-80.097033,7,ln
+72,"Sombrero Reef",24.625383,-81.111630,5,reef
+73,"Tennessee Reef",24.743966,-80.783616,10,reef
+74,"Horseshoe Reef",24.662460,-80.995216,8,reef
+75,"Shark Harbor",24.683850,-80.931650,9,reef
+76,"Sand Key Nursery",24.457820,-81.885950,NULL,ln
