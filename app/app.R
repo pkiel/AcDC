@@ -115,31 +115,6 @@ corals <- dbGetQuery(db, "Select
                               filters AS df ON m.filter_id = df.filter_id") %>%
   mutate(value = as.numeric(value))
 
-# #create global rankings
-# corals <- corals %>%
-#   #rank non-bleaching traits w/o any stress
-#   filter(!grepl('stress', filters, ignore.case = T) & !trait %in% bleachingTraits) %>%
-#   group_by(trait, method, unit, genotype) %>% 
-#   summarise(mean = mean(value, na.rm = T)) %>%
-#   mutate(rank = as.numeric(ntile(desc(mean),3))) %>%
-#   ungroup() %>%
-#   #rank the bleaching traits
-#   bind_rows(corals %>%
-#             filter(trait %in% bleachingTraits) %>%
-#               group_by(trait, method, unit, genotype) %>% 
-#               summarise(mean = mean(value, na.rm = T)) %>%
-#               mutate(rank = as.numeric(ntile(desc(mean),3))) %>%
-#               ungroup()) %>%
-#   select(-mean) %>%
-#   right_join(corals,
-#             by=c("genotype", "trait", "method", "unit")) %>%
-#   arrange(genotype, .before="trait") %>%
-#   #switch ranking for Bayes Rel Risk traits, <1 = low risk; > 1 = high risk
-#   mutate(rank = case_when(
-#     method=="Bayes Relative Risk" & rank==1 ~ 3,
-#     method=="Bayes Relative Risk" & rank==3 ~ 1,
-#     TRUE ~ rank))
-
 #list of geno names
 geno_names <- corals %>%
   select(geno_name = genotype, CSR_accession, mlg_id) %>%
